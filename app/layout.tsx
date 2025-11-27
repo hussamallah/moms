@@ -16,8 +16,19 @@ const geistMono = Geist_Mono({
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'International Tax & Accounting Platform',
-  description: 'Full-service U.S. & international tax, accounting, company formation & compliance for global clients',
+  title: 'International Tax & Accounting Services | Complete International Tax & Accounting Advisory',
+  description: 'Professional U.S. tax and accounting services for non-resident individuals, U.S. expats, and foreign business owners. Specializing in 1040-NR filing, ITIN services, company formation, and international compliance. IRS-registered with 10+ years of experience serving clients in 40+ countries.',
+  keywords: ['international tax', 'non-resident tax', 'expat tax', 'ITIN services', 'company formation', 'FBAR filing', 'FEIE', '1040-NR', 'foreign business', 'international accounting'],
+  authors: [{ name: 'Complete International Tax & Accounting Advisory' }],
+  openGraph: {
+    title: 'International Tax & Accounting Services',
+    description: 'Professional U.S. tax and accounting services for non-resident individuals, U.S. expats, and foreign business owners.',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
